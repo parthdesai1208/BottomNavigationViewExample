@@ -10,6 +10,7 @@ import retrofit2.http.GET;
  */
 
 public interface ApiService {
+    //update 1st
     @GET("movies_2017.json")
     Call<List<Movie>> getstoredeatils();
 
